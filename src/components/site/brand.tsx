@@ -4,6 +4,7 @@ import zapvozes from "@/assets/zapvozes.svg.asset.json";
 import vozesERotas from "@/assets/vozes-e-rotas.svg.asset.json";
 import politizaIa from "@/assets/politiza-ia.svg.asset.json";
 import jeffersonLobo from "@/assets/jefferson-lobo.svg.asset.json";
+import garantiaDireitos from "@/assets/garantia-direitos.svg.asset.json";
 
 export const seals = {
   agenciaVozes: agenciaVozes.url,
@@ -12,6 +13,7 @@ export const seals = {
   vozesERotas: vozesERotas.url,
   politizaIa: politizaIa.url,
   jeffersonLobo: jeffersonLobo.url,
+  garantiaDireitos: garantiaDireitos.url,
 };
 
 export function Kicker({ children }: { children: React.ReactNode }) {

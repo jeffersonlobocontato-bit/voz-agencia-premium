@@ -13,8 +13,11 @@ const segmentos = [
   {
     title: "Prefeituras e órgãos públicos",
     dor: "Saber o que a população realmente precisa, com dado que aguenta auditoria — não pesquisa de boca de urna nem caixa de sugestão que ninguém lê.",
-    sol: "Vozes & Rotas estrutura a escuta, georreferencia a demanda e cruza por eixo temático, virando insumo real pra plano de governo e política pública.",
-    marcas: [{ src: seals.vozesERotas, alt: "Vozes & Rotas" }],
+    sol: "Vozes & Rotas estrutura a escuta e georreferencia a demanda por eixo temático; Garantia de Direitos apoia a gestão pública em políticas públicas e conformidade de direitos.",
+    marcas: [
+      { src: seals.vozesERotas, alt: "Vozes & Rotas" },
+      { src: seals.garantiaDireitos, alt: "Garantia de Direitos" },
+    ],
   },
   {
     title: "Campanhas eleitorais e mandatos",

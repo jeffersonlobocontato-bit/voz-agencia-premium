@@ -46,6 +46,16 @@ const frentes: Frente[] = [
         ),
         text: "Escuta ativa: ouvidoria pública e técnica que transforma propostas e demandas em planos de governo e políticas públicas georreferenciadas.",
       },
+      {
+        seal: seals.garantiaDireitos,
+        alt: "Selo Garantia de Direitos",
+        name: (
+          <>
+            Garantia de <span className="highlight-yellow">Direitos</span>
+          </>
+        ),
+        text: "Consultoria em políticas públicas via assistente de IA — Sistema de Garantia de Direitos para gestão pública, com escopo de serviços em atualização.",
+      },
     ],
   },
   {

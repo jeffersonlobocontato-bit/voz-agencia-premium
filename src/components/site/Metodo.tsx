@@ -2,18 +2,18 @@ import { Kicker } from "./brand";
 
 const eixos = [
   {
-    num: "D",
-    title: "Decomposição sintática",
+    num: "01",
+    title: "Eixo sintático",
     text: "Como a frase é construída: ritmo, extensão, pontuação e cadência que fazem um texto soar como aquela pessoa.",
   },
   {
-    num: "E",
-    title: "Estrutura semântica",
+    num: "02",
+    title: "Eixo semântico",
     text: "O que a marca defende e como argumenta: teses recorrentes, hierarquia de ideias e ângulo editorial.",
   },
   {
-    num: "L",
-    title: "Léxico próprio",
+    num: "03",
+    title: "Eixo lexical",
     text: "As palavras que essa voz usa — e as que ela nunca usaria. O vocabulário vira restrição do agente.",
   },
 ];
@@ -41,7 +41,7 @@ export function Metodo() {
         <div className="mt-12 grid gap-5 md:grid-cols-3">
           {eixos.map((e) => (
             <article key={e.num} className="rounded-2xl border border-border bg-card p-7">
-              <span className="display-title text-5xl text-primary">{e.num}</span>
+              <span className="display-title text-4xl text-primary">{e.num}</span>
               <h3 className="mt-4 text-lg font-semibold">{e.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{e.text}</p>
             </article>
