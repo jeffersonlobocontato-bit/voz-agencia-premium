@@ -33,7 +33,7 @@ const frentes: Frente[] = [
   },
   {
     num: "02",
-    title: "Escuta pública e políticas públicas",
+    title: "Escuta pública (plataforma)",
     text: "Ouvidoria técnica que transforma a voz da população em plano de governo auditável — não pesquisa de opinião solta, mas dado georreferenciado e cruzado.",
     products: [
       {
@@ -46,6 +46,13 @@ const frentes: Frente[] = [
         ),
         text: "Escuta ativa: ouvidoria pública e técnica que transforma propostas e demandas em planos de governo e políticas públicas georreferenciadas.",
       },
+    ],
+  },
+  {
+    num: "03",
+    title: "Garantia de Direitos (formação e assessoria)",
+    text: "Serviço de pessoas, não de plataforma: formação e acompanhamento técnico à gestão pública na construção de políticas públicas, com equipe de assistência social e jurídica.",
+    products: [
       {
         seal: seals.garantiaDireitos,
         alt: "Selo Garantia de Direitos",
@@ -54,12 +61,12 @@ const frentes: Frente[] = [
             Garantia de <span className="highlight-yellow">Direitos</span>
           </>
         ),
-        text: "Consultoria em políticas públicas via assistente de IA — Sistema de Garantia de Direitos para gestão pública, com escopo de serviços em atualização.",
+        text: "Cursos, palestras, workshops e assessoria na construção de políticas públicas, conduzidos por equipe técnica de assistência social e jurídica — com apoio de assistente de IA da AIV.",
       },
     ],
   },
   {
-    num: "03",
+    num: "04",
     title: "Inteligência eleitoral e gestão de mandatos",
     text: "Comando de campanha e mandato num só lugar — cruzamento de macrodados onde antes existiam planilhas soltas e intuição.",
     products: [
@@ -76,7 +83,7 @@ const frentes: Frente[] = [
     ],
   },
   {
-    num: "04",
+    num: "05",
     title: "Palestras e consultoria estratégica",
     text: "A voz institucional da agência em público — quem defende, ensina e implementa essas teses dentro das empresas e campanhas que contratam a AIV.",
     products: [
@@ -100,7 +107,7 @@ export function Ecossistema() {
       <div className="mx-auto max-w-6xl px-5 sm:px-8">
         <Kicker>Ecossistema</Kicker>
         <h2 className="display-title mt-6 max-w-3xl text-4xl sm:text-5xl">
-          Uma agência, quatro frentes, <em>cinco marcas</em>
+          Uma agência, cinco frentes, <em>seis marcas</em>
         </h2>
         <p className="mt-5 max-w-2xl text-muted-foreground">
           Cada frente nasceu de um problema real e virou produto próprio. O que a AIV oferece não é um catálogo de
