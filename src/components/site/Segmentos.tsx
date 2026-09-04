@@ -13,7 +13,7 @@ const segmentos = [
   {
     title: "Prefeituras e órgãos públicos",
     dor: "Saber o que a população realmente precisa, com dado que aguenta auditoria — não pesquisa de boca de urna nem caixa de sugestão que ninguém lê.",
-    sol: "Vozes & Rotas estrutura a escuta e georreferencia a demanda por eixo temático; Garantia de Direitos apoia a gestão pública em políticas públicas e conformidade de direitos.",
+    sol: "Duas entregas distintas: Vozes & Rotas é a plataforma que estrutura a escuta e georreferencia a demanda; Garantia de Direitos é o trabalho de formação e assessoria — cursos, palestras, workshops e acompanhamento técnico com equipe de assistência social e jurídica na construção das políticas públicas.",
     marcas: [
       { src: seals.vozesERotas, alt: "Vozes & Rotas" },
       { src: seals.garantiaDireitos, alt: "Garantia de Direitos" },
